@@ -1,31 +1,29 @@
 {
-  "name": "smart-bus-mrgadget",
-  "version": "0.5.4",
+  "name": "@lexsus/smart-bus",
+  "version": "0.5.5",
   "license": "MIT",
   "description": "Node.js implementation of HDL SmartBus protocol [Fork of smart-bus]",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrgadget/smart-bus.git"
+    "url": "git+https://github.com/Lexsus2020/smart-bus.git"
   },
   "author": "@bennuttall",
-
   "main": "index.js",
   "scripts": {
     "test": "mocha",
     "coverage": "istanbul cover _mocha"
   },
-
   "dependencies": {
     "crc": "~3.4",
     "debug": "~2.6"
   },
-
   "devDependencies": {
     "mocha": "~3.2",
     "should": "~11.2",
     "istanbul": "~0.4",
     "simple-mock": "~0.7"
   },
-
-  "engines": { "node": ">=0.12" }
+  "engines": {
+    "node": ">=0.12"
+  }
 }
